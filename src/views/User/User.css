@@ -1,0 +1,34 @@
+.box {
+  padding: 5.3333vw;
+  background: #EFEEF3;
+  height: 100vh;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10.6667vw;
+}
+
+.user-info .userinfo-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.user-info .username {
+  font-size: 7.4667vw;
+  color: #17482E;
+  margin-bottom: 2.1333vw;
+}
+
+.user-info .usersign {
+  font-size: 3.7333vw;
+  color: #8C8B90;
+}
+
+.userinfo-avatar img {
+  width: 18.1333vw;
+  height: 18.1333vw;
+  border-radius: 50%;
+}

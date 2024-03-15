@@ -1,0 +1,30 @@
+{
+  "id": "4461543",
+  "name": "记账",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36605506",
+      "name": "数据分析",
+      "font_class": "shujufenxi",
+      "unicode": "e809",
+      "unicode_decimal": 59401
+    },
+    {
+      "icon_id": "37033797",
+      "name": "账户",
+      "font_class": "zhanghu",
+      "unicode": "e81f",
+      "unicode_decimal": 59423
+    },
+    {
+      "icon_id": "37331596",
+      "name": "总账单",
+      "font_class": "zongzhangdan",
+      "unicode": "e822",
+      "unicode_decimal": 59426
+    }
+  ]
+}

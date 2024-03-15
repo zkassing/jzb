@@ -1,0 +1,33 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../assets/bg.jpg) no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-panel {
+  display: flex;
+  flex-direction: column;
+  width: 86.6667vw;
+}
+
+.select-panel .btn{
+  height: 13.3333vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6.6667vw;
+  background: #fff;
+  font-size: 3.7333vw;
+  color: #31463F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.select-panel .login {
+  background: #539D82;
+  color: #fff;
+  margin-top: 7.4667vw
+}

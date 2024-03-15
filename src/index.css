@@ -1,0 +1,13 @@
+@import url("https://at.alicdn.com/t/c/font_4461543_nvvre6nf1ff.css");
+
+
+.button {
+  width: 100%;
+  height: 13.3333vw;
+  border: none;
+  border-radius: 6.6667vw;
+  background: #426E52;
+  color: #fff;
+  font-size: 3.7333vw;
+  font-weight: bold;
+}

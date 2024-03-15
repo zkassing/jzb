@@ -1,0 +1,24 @@
+.type-list {
+  display: flex;
+  overflow-x: auto;
+}
+
+.type-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  /* width: 10.6667vw;
+  height: 10.6667vw; */
+  margin-right: 2.6667vw;
+  padding: 2.6667vw;
+}
+
+.type-item .iconfont {
+  font-size: 26px;
+  margin-bottom: 0.8vw;
+}
+
+.type-item.active {
+  color: #426E52;
+}

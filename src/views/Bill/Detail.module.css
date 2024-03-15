@@ -1,0 +1,59 @@
+.box {
+  min-height: 100vh;
+  padding: 5.3333vw;
+  background: #eee;
+}
+
+.card {
+  background: #fff;
+  padding: 5.3333vw;
+  border-radius: 2.6667vw;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-wrap {
+  width: 11.7333vw;
+  height: 11.7333vw;
+  background: #426E52;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.icon-name {
+  font-size: 14px;
+  margin-top: 1.3333vw;
+}
+
+.price {
+  margin-top: 2.6667vw;
+  font-size: 8vw;
+  text-align: center;
+}
+
+
+.green {
+  color: #426E52;
+}
+
+.red {
+  color: red;
+}
+
+.info {
+  margin-top: 2.6667vw;
+}
+
+.info-item {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 2.6667vw;
+}

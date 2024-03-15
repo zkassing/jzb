@@ -1,0 +1,166 @@
+.box {
+  padding-bottom: 11.7333vw;
+}
+
+.add {
+  position: fixed;
+  right: 2.6667vw;
+  bottom: 21.3333vw;
+  background: #426E52;
+  width: 11.7333vw;
+  height: 11.7333vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.popup-box {
+  background: #fff;
+  padding: 5.3333vw;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.6667vw;
+}
+
+.popup-header .date {
+  font-size: 3.2vw;
+}
+
+.popup-box .price {
+  padding: 4vw 0;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 0.2667vw solid #eee;
+}
+
+.popup-box .price .unit .iconfont {
+  font-size: 8.5333vw;
+}
+
+.popup-box .price .number {
+  margin-bottom: 1.0667vw;
+  font-size: 5.3333vw;
+}
+
+.item {
+
+}
+
+.item-header {
+  display: flex;
+  height: 10.6667vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.6667vw;
+  background: #eee;
+}
+
+.item-header .item-date {
+  font-weight: bold;
+}
+
+.item-price {
+  display: flex;
+}
+
+.item-price .price-item {
+  display: flex;
+  align-items: center;
+  font-size: 3.2vw;
+  margin-left: 2.6667vw;
+}
+
+.item-price .price-item .icon {
+  width: 6.4vw;
+  height: 6.4vw;
+  background: #426E52;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2vw;
+  border-radius: 50%;
+}
+
+.item-body {
+}
+
+.bill {
+  border-bottom: 0.2667vw solid #eee;
+  padding: 5.3333vw;
+
+}
+.bill .bill-date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.bill-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.6667vw;
+}
+
+.bill-item .num {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bill-item .num.green {
+  color: #426E52;
+}
+
+.bill-item .num.red {
+  color: #b60917;
+}
+
+.total {
+  background: #426E52;
+  padding: 5.3333vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.total .filter {
+  align-self: flex-end;
+  margin-top: 2.6667vw;
+  font-size: 3.2vw;
+  color: #fff;
+  background: #274130;
+  padding: 0 4vw;
+  height: 6.6667vw;
+  border-radius: 3.3333vw;
+  display: flex;
+  align-items: center;
+}
+
+.total-header {
+  color: #fff;
+  display: flex;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.total-header .expense {
+  margin-right: 2.6667vw;
+}
+
+.total-header .expense span, .total-header .income span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.empty {
+  text-align: center;
+  font-size: 14px;
+  height: 80vw;
+  line-height: 80vw;
+  color: #aaa;
+  
+}
